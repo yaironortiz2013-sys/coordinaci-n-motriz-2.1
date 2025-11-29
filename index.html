@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Aprende Jugando! - Sitio Educativo</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: inline-block; vertical-align: middle; margin-right: 8px;">
+                    <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+                </svg>
+                ¡Aprende Jugando!
+            </h1>
+            <nav class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link active">Inicio</a></li>
+                    <li><a href="coordinacion-motriz.html" class="nav-link">Coordinación Motriz</a></li>
+                    <li><a href="coordinacion-viso.html" class="nav-link">Coordinación Viso-pédica y Viso-manual</a></li>
+                    <li><a href="orientacion-temporo-espacial.html" class="nav-link">Orientación Temporo-espacial</a></li>
+                </ul>
+                <button class="menu-toggle" aria-label="Menú">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>¡Bienvenido al Mundo del Aprendizaje!</h2>
+                <p>Descubre y aprende sobre diferentes habilidades mientras te diviertes</p>
+            </div>
+        </section>
+
+        <section class="temas-grid">
+            <div class="container">
+                <h2 class="section-title">Elige un Tema para Empezar</h2>
+                <div class="cards-container">
+                    <div class="card tema-card" onclick="window.location.href='coordinacion-motriz.html'">
+                        <div class="card-icon">
+                            <img src="https://images.unsplash.com/photo-1517649763962-0c623066013b?w=400&h=300&fit=crop" alt="Niños corriendo y jugando" class="card-image">
+                        </div>
+                        <h3>Coordinación Motriz</h3>
+                        <p>Aprende sobre el movimiento y la coordinación de tu cuerpo. Descubre cómo mejorar tu equilibrio, fuerza y agilidad.</p>
+                        <button class="btn-primary">Explorar</button>
+                    </div>
+
+                    <div class="card tema-card" onclick="window.location.href='coordinacion-viso.html'">
+                        <div class="card-icon">
+                            <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=300&fit=crop" alt="Niño dibujando" class="card-image">
+                        </div>
+                        <h3>Coordinación Viso-pédica y Viso-manual</h3>
+                        <p>Descubre cómo tus ojos trabajan con tus manos y pies. Aprende a mejorar tu precisión y destreza.</p>
+                        <button class="btn-primary">Explorar</button>
+                    </div>
+
+                    <div class="card tema-card" onclick="window.location.href='orientacion-temporo-espacial.html'">
+                        <div class="card-icon">
+                            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=300&fit=crop" alt="Niños aprendiendo" class="card-image">
+                        </div>
+                        <h3>Orientación Temporo-espacial</h3>
+                        <p>Aprende sobre el tiempo y el espacio que te rodea. Desarrolla tu sentido de ubicación y temporalidad.</p>
+                        <button class="btn-primary">Explorar</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-creator">
+                <div class="creator-info">
+                    <img src="images/creador.jpg" alt="Creador del sitio" class="creator-photo">
+                    <div class="creator-details">
+                        <h3>Yairon Enrique Ortiz Roa</h3>
+                        <p>Especialización aplicación de las TIC para la enseñanza</p>
+                    </div>
+                </div>
+                <p class="footer-copyright">&copy; 2024 Sitio Educativo Interactivo. Diseñado para niños.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
